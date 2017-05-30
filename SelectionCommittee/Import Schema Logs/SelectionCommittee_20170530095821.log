@@ -1,0 +1,77 @@
+31.05.2017 1:58:21	This log contains information about the import schema operation into project 'SelectionCommittee' on computer 'DESKTOP-IIJBGA6' by user 'EvseevKD'.
+31.05.2017 1:58:21	Import of database schema has started.
+31.05.2017 1:58:30	Gathering database options
+31.05.2017 1:58:30	Gathering users
+31.05.2017 1:58:30	Gathering roles
+31.05.2017 1:58:30	Gathering application roles
+31.05.2017 1:58:30	Gathering role memberships
+31.05.2017 1:58:30	Gathering filegroups
+31.05.2017 1:58:30	Gathering full-text catalogs
+31.05.2017 1:58:30	Gathering assemblies
+31.05.2017 1:58:30	Gathering certificates
+31.05.2017 1:58:30	Gathering asymmetric keys
+31.05.2017 1:58:30	Gathering symmetric keys
+31.05.2017 1:58:30	Gathering encrypted symmetric keys
+31.05.2017 1:58:30	Gathering schemas
+31.05.2017 1:58:31	Gathering XML schema collections
+31.05.2017 1:58:31	Gathering user-defined data types
+31.05.2017 1:58:31	Gathering user-defined types
+31.05.2017 1:58:31	Gathering table types
+31.05.2017 1:58:31	Gathering unique keys for table types
+31.05.2017 1:58:31	Gathering primary keys for table types
+31.05.2017 1:58:31	Gathering indexes for table types
+31.05.2017 1:58:31	Gathering check constraints for table types
+31.05.2017 1:58:31	Gathering default constraints for table types
+31.05.2017 1:58:31	Gathering partition functions
+31.05.2017 1:58:31	Gathering partition schemes
+31.05.2017 1:58:31	Gathering functions
+31.05.2017 1:58:31	Gathering encrypted functions
+31.05.2017 1:58:31	Gathering aggregates
+31.05.2017 1:58:31	Gathering procedures
+31.05.2017 1:58:32	Gathering encrypted procedures
+31.05.2017 1:58:32	Gathering tables
+31.05.2017 1:58:33	Gathering primary keys
+31.05.2017 1:58:33	Gathering unique constraints
+31.05.2017 1:58:33	Gathering foreign keys
+31.05.2017 1:58:33	Gathering default constraints
+31.05.2017 1:58:33	Gathering check constraints
+31.05.2017 1:58:33	Gathering views
+31.05.2017 1:58:33	Gathering encrypted views
+31.05.2017 1:58:33	Gathering indexes
+31.05.2017 1:58:33	Gathering statistics
+31.05.2017 1:58:33	Gathering full-text index stoplists
+31.05.2017 1:58:33	Gathering search property lists
+31.05.2017 1:58:33	Gathering search properties
+31.05.2017 1:58:33	Gathering full-text indexes
+31.05.2017 1:58:33	Gathering column store indexes
+31.05.2017 1:58:33	Gathering spatial indexes
+31.05.2017 1:58:33	Gathering XML indexes
+31.05.2017 1:58:33	Gathering Selective XML indexes
+31.05.2017 1:58:33	Gathering encrypted triggers
+31.05.2017 1:58:33	Gathering triggers
+31.05.2017 1:58:33	Gathering encrypted and clr ddl triggers
+31.05.2017 1:58:33	Gathering ddl triggers
+31.05.2017 1:58:33	Gathering synonyms
+31.05.2017 1:58:33	Gathering defaults
+31.05.2017 1:58:33	Gathering data constraint uddt bindings
+31.05.2017 1:58:33	Gathering rules
+31.05.2017 1:58:33	Gathering data constraint uddt bindings
+31.05.2017 1:58:33	Gathering message types
+31.05.2017 1:58:33	Gathering queues
+31.05.2017 1:58:33	Gathering contracts
+31.05.2017 1:58:33	Gathering services
+31.05.2017 1:58:33	Gathering event notifications
+31.05.2017 1:58:33	Gathering remote service bindings
+31.05.2017 1:58:33	Gathering broker priorities
+31.05.2017 1:58:33	Gathering signatures
+31.05.2017 1:58:33	Gathering data compression options
+31.05.2017 1:58:33	Gathering sequence types
+31.05.2017 1:58:33	Gathering extended properties
+31.05.2017 1:58:33	Gathering credentials
+31.05.2017 1:58:33	Gathering logins
+31.05.2017 1:58:33	Gathering server audits
+31.05.2017 1:58:35	Scanning project for duplicate elements
+31.05.2017 1:58:35	Finished duplicate element processing
+31.05.2017 1:58:37	Finished importing database.
+31.05.2017 1:58:37	A summary of the import was saved to the following location: c:\users\evseevkd\documents\visual studio 2015\Projects\SelectionCommittee\SelectionCommittee\Import Schema Logs\SelectionCommittee_20170530095821.log
+31.05.2017 1:58:37	Click Finish to continue...

@@ -1,0 +1,6 @@
+﻿CREATE TABLE [scc].[City] (
+    [CityID]   SMALLINT      IDENTITY (1, 1) NOT NULL,
+    [CityName] NVARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_scc_City] PRIMARY KEY CLUSTERED ([CityID] ASC)
+);
+

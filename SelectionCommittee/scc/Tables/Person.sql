@@ -1,0 +1,26 @@
+﻿CREATE TABLE [scc].[Person] (
+    [PersonID]                 INT             IDENTITY (1, 1) NOT NULL,
+    [FirstName]                NVARCHAR (70)   NOT NULL,
+    [MiddleName]               NVARCHAR (70)   NULL,
+    [LastName]                 NVARCHAR (70)   NOT NULL,
+    [PhoneNumber]              NVARCHAR (50)   NULL,
+    [Check]                    BIT             CONSTRAINT [DF_scc_Person_Check] DEFAULT ((0)) NULL,
+    [Discription]              NVARCHAR (2000) NULL,
+    [AgreementOnTransfer]      BIT             CONSTRAINT [DF_scc_Person_AgreementOnTransfer] DEFAULT ((0)) NULL,
+    [ProcessingOfPersonalData] BIT             CONSTRAINT [DF_scc_Person_ProcessingOfPersonalData] DEFAULT ((0)) NULL,
+    [Reference]                BIT             CONSTRAINT [DF_scc_Person_Reference] DEFAULT ((0)) NULL,
+    [Policy]                   BIT             CONSTRAINT [DF_scc_Person_Policy] DEFAULT ((0)) NULL,
+    [Photo]                    TINYINT         CONSTRAINT [DF_scc_Person_Photo] DEFAULT ((0)) NULL,
+    [PassportCopy]             TINYINT         CONSTRAINT [DF_scc_Person_PassportCopy] DEFAULT ((0)) NULL,
+    [INN]                      NVARCHAR (70)   NULL,
+    [SNILS]                    NVARCHAR (70)   NULL,
+    [DocNumber]                NVARCHAR (70)   NULL,
+    [CityID]                   SMALLINT        NULL,
+    [MethodOfAdmissionID]      TINYINT         NULL,
+    [sysDateCreated]           DATETIME        CONSTRAINT [DF_scc_Person_sysDateCreated] DEFAULT (getdate()) NULL,
+    [sysDateModified]          DATETIME        CONSTRAINT [DF_scc_Person_sysDateModified] DEFAULT (getdate()) NULL,
+    CONSTRAINT [PK_scc_Person] PRIMARY KEY CLUSTERED ([PersonID] ASC),
+    CONSTRAINT [FK_scc_Person_City] FOREIGN KEY ([CityID]) REFERENCES [scc].[City] ([CityID]),
+    CONSTRAINT [FK_scc_Person_Method] FOREIGN KEY ([MethodOfAdmissionID]) REFERENCES [scc].[MethodOfAdmission] ([MethodOfAdmissionID])
+);
+
