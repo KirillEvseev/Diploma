@@ -1,0 +1,97 @@
+﻿<html>
+<style type="text/css">
+    .square1 {
+        border: 1px solid #000000;
+        background-color: white;
+        color: #000000;
+        width: 80px;
+        height: 40px;
+        left: 50px;
+        top: 10px;
+        position: relative;
+        vertical-align: middle;
+    }
+
+    .square2 {
+        background-color: darkgray;
+        color: #000000;
+        width: 80px;
+        height: 40px;
+        left: 50px;
+        top: 10px;
+        position: relative;
+        vertical-align: middle;
+    }
+
+    .square3 {
+        top: 10px;
+        position: relative;
+    }
+
+    .controls {
+        background: #C5DFF0;
+        margin: 20px auto;
+        padding: 20px;
+        position: relative;
+        width: 1200px;
+        box-shadow: 1px 1px 5px #111111;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+        a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  font-size: 24px;
+  font-family: 'Fredoka One', cursive;
+  transition: .3s ease-in-out;
+}
+
+    .s8 {
+  color: #E7805E;
+  text-shadow: 1px 1px 1px #555555;
+    }
+    .s8:hover {
+      position: relative;
+      top: 2px;
+      left: 2px;
+    }
+
+</style>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta name="referrer" content="unsafe-url" />
+    <meta name="referrer" content="origin" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="./js/Func.js"></script>
+    <script src="./js/Func_DecreeInsert.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Выборка всех бакалавров и их направлений (Черновое редактирование)</h1>
+    <br></br>
+    <a href="./Menu.html" class="s8">Вернуться в меню</a>
+    <br></br>
+    <div class="controls">
+        <input type="button" id="button1" value="Show"  onclick="PersonDuplicateDirection()"></input>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="button" id="button2" value="Update" onclick="PersonDuplicateChangeDirection()"></input>
+    </div>
+    <div id="div" class="square3">
+    </div>
+
+</body>
+
+</html>

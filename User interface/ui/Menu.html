@@ -1,0 +1,179 @@
+﻿<html>
+<style type="text/css">
+    .square1 {
+        border: 1px solid #000000;
+        background-color: white;
+        color: #000000;
+        width: 80px;
+        height: 20px;
+        left: 50px;
+        top: 1px;
+        position: relative;
+        vertical-align: middle;
+    }
+
+    .square2 {
+        background-color: darkgray;
+        color: #000000;
+        width: 80px;
+        height: 40px;
+        left: 50px;
+        top: 10px;
+        position: relative;
+        vertical-align: middle;
+    }
+
+    .square3 {
+        top: 10px;
+        position: relative;
+    }
+
+    .controls {
+        background: #C5DFF0;
+        margin: 20px auto;
+        padding: 20px;
+        position: relative;
+        width: 1200px;
+        box-shadow: 1px 1px 5px #111111;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  margin: 0 20px;
+  font-size: 24px;
+  font-family: 'Fredoka One', cursive;
+  transition: .3s ease-in-out;
+}
+
+    .s8 {
+  color: #E7805E;
+  text-shadow: 1px 1px 1px #555555;
+    }
+    .s8:hover {
+      position: relative;
+      top: 2px;
+      left: 2px;
+    }
+</style>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta name="referrer" content="unsafe-url" />
+    <meta name="referrer" content="origin" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="./js/Func.js"></script>
+    <script src="./js/Func_DecreeInsert.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+
+</head>
+
+<body>
+
+    <h1>&nbsp&nbsp&nbspДобро пожаловать в меню!</h1>
+    <br></br>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspДобавить нового человека</h3>
+    <div class="controls">
+        &nbsp&nbsp&nbsp<a href="./BachelorInsert.html" class="s8">Добавление бакалавра</a>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="./MasterInsert.html" class="s8">Добавление магистра</a>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="./PSInsert.html" class="s8">Добавление аспиранта</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspПолные выборки</h3>
+    <div class="controls">
+        <a href="./BachelorUpdateDelete.html" class="s8">Бакалавры</a>
+        <a href="./MasterUpdateDelete.html" class="s8">Магистры</a>
+        <a href="./PSUpdateDelete.html" class="s8">Аспиранты</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspОбщие выборки</h3>
+    <div class="controls">
+        <a href="./BachelorRank.html" class="s8">Ранк-таблица</a>
+        <a href="./BachelorSocialSciense.html" class="s8">Общество</a>
+        <a href="./SchoolPeopleCount.html" class="s8">Школы</a>
+        <a href="./CityPeopleCount.html" class="s8">Города</a>
+        <a href="./AlphabetList.html" class="s8">Алфавитный список</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspБакалавры Очное</h3>
+    <div class="controls">
+        <a href="./BachelorNoExamsSelect.html" class="s8">Без экзаменов</a>
+        <a href="./BachelorKvotaSelect.html" class="s8">Квота</a>
+        <a href="./BachelorCelevoeSelect.html" class="s8">Целевое</a>
+        <a href="./BachelorCurrentRankKonkursSelect.html" class="s8">Конкурс(Ранк)</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspБакалавры Заочное</h3>
+    <div class="controls">
+        <a href="./BachelorZaochNoExamsSelect.html" class="s8">Без экзаменов</a>
+        <a href="./BachelorZaochKvotaSelect.html" class="s8">Квота</a>
+        <a href="./BachelorZaochCelevoeSelect.html" class="s8">Целевое</a>
+        <a href="./BachelorZaochCurrentRankKonkursSelect.html" class="s8">Конкурс(Ранк)</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspВыборки магистры/аспиранты</h3>
+    <div class="controls">
+        <a href="./MasterBriefInformation.html" class="s8">Магистры</a>
+        <a href="./PSBriefInformation.html" class="s8">Аспиранты</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspПриказы</h3>
+    <div class="controls">
+        <a href="./BachelorParticipationInAnotherContest.html" class="s8">Дальнейшее участие в конкурсе</a>
+        <a href="./DecreeDelete.html" class="s8">Просмотр/удаление приказа</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspУдаленные абитуриенты</h3>
+    <div class="controls">
+        <a href="./BachelorDeleted.html" class="s8">Бакалавры</a>
+        <a href="./MasterDeleted.html" class="s8">Магистры</a>
+        <a href="./PSDeleted.html" class="s8">Аспиранты</a>
+    </div>
+    <br></br>
+    <br></br>
+    <h1>&nbsp&nbsp&nbspЧерновое Редактирование</h1>
+    <div class="controls">
+        <input type="button" value="Обновить черновик" onclick="DuplicateUpdate()"></input>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspБакалавры Очное(черновик)</h3>
+    <div class="controls">
+        <a href="./BachelorNoExamsSelectDuplicate.html" class="s8">Без экзаменов</a>
+        <a href="./BachelorKvotaSelectDuplicate.html" class="s8">Квота</a>
+        <a href="./BachelorCelevoeSelectDuplicate.html" class="s8">Целевое</a>
+        <a href="./BachelorCurrentRankKonkursSelectDuplicate.html" class="s8">Конкурс(Ранк)</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspБакалавры Заочное(черновик)</h3>
+    <div class="controls">
+        <a href="./BachelorZaochNoExamsSelectDuplicate.html" class="s8">Без экзаменов</a>
+        <a href="./BachelorZaochKvotaSelectDuplicate.html" class="s8">Квота</a>
+        <a href="./BachelorZaochCelevoeSelectDuplicate.html" class="s8">Целевое</a>
+        <a href="./BachelorZaochCurrentRankKonkursSelectDuplicate.html" class="s8">Конкурс(Ранк)</a>
+    </div>
+    <br></br>
+    <h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspРабота с приказами(черновик)</h3>
+    <div class="controls">
+        <a href="./BachelorParticipationInAnotherContestDuplicate.html" class="s8">Дальнейшее участие</a>
+        <a href="./BachelorDuplicateChangeDirection.html" class="s8">Смена направлений</a>
+        <a href="./DecreeDeleteDuplicate.html" class="s8">Просмотр/удаление приказа</a>
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
+</body>
+
+</html>
